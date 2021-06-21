@@ -32,6 +32,10 @@ hr {
     text-decoration: none;
 }
 
+.hero-text a:before {
+    color: white;
+}
+
 .hero-text a:visited {
     color: white;
 }
