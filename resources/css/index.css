@@ -28,15 +28,8 @@ hr {
     color: white;
 }
 
-.hero-text a {
+.hero-text a, a:link, a: visited {
     text-decoration: none;
-}
-
-.hero-text a:before {
-    color: white;
-}
-
-.hero-text a:visited {
     color: white;
 }
 
