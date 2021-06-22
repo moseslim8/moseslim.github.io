@@ -67,8 +67,8 @@ hr {
     font-style: normal;
     font-weight: normal;
     text-decoration: inherit;
-	color: black;
-	font-size: 0.75em;
+    color: black;
+    font-size: 0.75em;
 }
 
 .about-me li:first-child:before {
@@ -80,6 +80,9 @@ hr {
     padding: 0.25em 0.4em;
     font-size: 2em;
     text-decoration: none;
+    float: right;
+    position: sticky;
+    right: 7.15em;
 }
 
 .fa:hover {
@@ -88,14 +91,12 @@ hr {
 
 .fa-linkedin {
     position: relative;
-    left: 16.15em;
     background: #007bb5;
     color: white;
 }
 
 .fa-github {
     position: relative;
-    left: 12.15em;
     background: #333;
     color: white;
 }
