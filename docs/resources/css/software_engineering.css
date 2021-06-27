@@ -1,6 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    float: left;
+}
+
+.col-1 {
+    width: 100%;
+}
+
+.col-2 {
+    width: 65%;
+    padding: 0em 3em 0em 3em;
+    font-size: 1.15em;
+    text-align: left;
+}
+
+.col-3 {
+    width: 35%;
+    padding: 1.25em 3em 0em 0em;
+}
+
 body, html {
     height: 100%;
-    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -29,32 +52,14 @@ hr {
 }
 
 .about-me {
-    height: 90%;
-    padding: 1.5em;
-    text-align: center;
+    height: 100%;
     background-color: aliceblue;
-}
-
-.about-me img {
-    float: right;
-    height: 40%;
-    padding: 2em 5em 0em 0em;
+    text-align: center;
 }
 
 .about-me h1 {
+    text-align: center;
     font-size: 3em;
-}
-
-.about-me p {
-    font-size: 1.25em;
-    padding: 1em 30em 0em 5em;
-    text-align: left;
-}
-
-.about-me ul {
-    font-size: 1.25em;
-    padding: 0em 30em 0em 5em;
-    text-align: left;
 }
 
 .about-me li {
@@ -75,14 +80,15 @@ hr {
     content: '';
 }
 
+.about-me img {
+    height: 50%;
+    width: 90%;
+}
+
 .fa {
-    top: -2.8em;
     padding: 0.25em 0.4em;
     font-size: 2em;
     text-decoration: none;
-    float: right;
-    position: sticky;
-    right: 7.15em;
 }
 
 .fa:hover {
