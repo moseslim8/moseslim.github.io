@@ -80,7 +80,7 @@ hr {
     content: '';
 }
 
-.about-me img {
+.about-me .col-3 img {
     height: 50%;
     width: 90%;
 }
