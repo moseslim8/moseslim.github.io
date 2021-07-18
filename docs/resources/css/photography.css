@@ -10,13 +10,14 @@ hr {
 }
 
 .hero-image-ph {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('resources/images/January2021-28.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('resources/images/July2021-34.jpg');
     height: 100%;
+    
+    /* Parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
 }
 
 @media only screen and (max-device-width: 1366px) {
@@ -43,7 +44,6 @@ hr {
 
 .about-me {
     padding: 0.25em;
-    height: 60%;
     text-align: center;
     background-color: aliceblue;
 }
@@ -78,20 +78,10 @@ hr {
 
 .portfolio {
     height: 100%;
+    
+    /* Parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-}
-
-@media only screen and (max-device-width: 1366px) {
-    .portfolio {
-        height: 100%;
-        background-attachment: scroll;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-    }
 }
