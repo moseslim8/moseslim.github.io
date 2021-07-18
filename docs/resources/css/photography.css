@@ -10,7 +10,7 @@ hr {
 }
 
 .hero-image-ph {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('http://moseslim8.github.io/docs/resources/images/July2021-34.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://moseslim8.github.io/docs/resources/images/July2021-34.jpg');
     height: 100%;
     
     /* Parallax scrolling effect */
