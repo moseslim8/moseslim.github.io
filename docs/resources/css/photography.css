@@ -1,6 +1,5 @@
 body, html {
     height: 100%;
-    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -10,7 +9,7 @@ hr {
 }
 
 .hero-image-ph {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('resources/images/July2021-34.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('http://127.0.0.1:1038/docs/resources/images/July2021-34.jpg');
     height: 100%;
     
     /* Parallax scrolling effect */
@@ -18,18 +17,6 @@ hr {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-@media only screen and (max-device-width: 1366px) {
-    .hero-image-ph {
-        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('resources/images/January2021-28.jpg');
-        height: 100%;
-        background-attachment: scroll;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-    }
 }
 
 .hero-text-ph {
