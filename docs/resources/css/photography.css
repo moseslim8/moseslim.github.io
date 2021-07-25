@@ -31,9 +31,7 @@ hr {
 }
 
 .portfolio {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('http://127.0.0.1:20527/docs/resources/images/June2021-35.jpg');
-    /* remove above when updating source code in Github */
-/*    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/resources/images/June2021-35.jpg');*/
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/resources/images/June2021-35.jpg');
     height: 100%;
     
     /* Parallax scrolling effect */
@@ -44,10 +42,7 @@ hr {
 }
 
 .about-me {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('http://127.0.0.1:20527/docs/resources/images/Mayl2021-105.jpg');
-    /* remove above when updating source code in Github */
-/*    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/resources/images/Mayl2021-105.jpg');*/
-    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/resources/images/Mayl2021-105.jpg');    height: 100%;
     
     /* Parallax scrolling effect */
     background-attachment: fixed;
