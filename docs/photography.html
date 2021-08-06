@@ -8,21 +8,46 @@
         <link rel="stylesheet" href="resources/css/photography.css">
     </head>
     
-    <body>
+    <body id="scrolling" onload="changePicture()">
         <div class="hero-image-ph">
             <div class="hero-text-ph">
-                <h1> <a href="photography.html"> I am Moses Lim </a> </h1>
+                <h1> <a href="index.html"> I am Moses Lim </a> </h1>
                 <hr>
                 <h2> Photography </h2>
             </div>
         </div>
         
         <div class="portfolio">
-            <h1> <a href="photography_portfolio.html"> Portfolio </a> </h1>
+            <h1> <a class="modal-link"> Portfolio </a> </h1>
+            
+            <div class="modal-click modal">
+                <div>
+                    <span class="close"> &times; </span>
+                    <div id="slideshow"> </div>
+                </div>
+            </div>
         </div>
         
         <div class="about-me">
-            <h1> <a href="photography_aboutme.html"> About Me </a> </h1>
+            <h1> <a class="modal-link"> About Me </a> </h1>
+            
+            <div class="modal-click modal">
+                <div>
+                    <span class="close"> &times; </span>
+                    <div class="col-1">
+                        <p>
+                            Ever since I picked up my first DSLR in 2018, photography has been my passion. My main genre is street photography with the occasional landscape. While I was living at Lincoln College in Adelaide, South Australia completing my Bachelor of Computer Science degree at the University of Adelaide, I worked as a Photography Intern. My main responsibilities were to cover the various college events held throughout the year such as SAUCC sports, Lincoln Ball and formal dinners. The images were then used for social media and marketing purposes. In addition to that, I was the recipient of the Lincoln College Arts Award 2019 in recognition for outstanding accomplishments in arts, language and music.
+                        </p>
+                    </div>
+                    <div class="col-2">
+                        <img src="resources/images/Moses-1.jpg" alt="Moses">
+                        <br>
+                        <a href="https://www.instagram.com/moseslim.pics/" class="fa fa-instagram" target="_blank" rel="noopener noreferrer"></a>
+                    </div>
+                </div>
+            </div>
         </div>
+        
+        <script type="text/javascript" src="resources/js/photography.js"></script>
     </body>
 </html>
