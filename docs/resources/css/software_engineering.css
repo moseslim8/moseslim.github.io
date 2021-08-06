@@ -53,6 +53,15 @@ hr {
     color: white;
 }
 
+.hero-text-se a, .portfolio a, .about-me a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero-text-se a:hover, .portfolio a:hover, .about-me a:hover {
+    color: cadetblue;
+}
+
 .about-me {
     height: 100%;
     background-color: #5a5a5c;
